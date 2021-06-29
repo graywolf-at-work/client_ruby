@@ -74,6 +74,7 @@ where it's not possible or feasible to let a Prometheus server scrape a Ruby
 process. TLS and basic access authentication are supported.
 
 ```ruby
+require 'cgi'
 require 'prometheus/client'
 require 'prometheus/client/push'
 
